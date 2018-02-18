@@ -1,0 +1,37 @@
+body {
+  font-family: 'Helvetica';
+  color: #254d8f;
+}
+
+.label {
+  margin-top: 15px;
+  color: #3565b2;
+}
+
+h3 {
+  margin: 5px;
+  text-align: center;
+}
+
+input {
+  margin: 5px 0px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#container * {
+  width: 500px;
+}
+
+canvas {
+  background: #cbd8ef;
+  border: 1px solid #96aacc;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Tetris</title>
+    <link rel ="stylesheet" href="styles.css">
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+  <div id='container'>
+    <h3>Tetris</h3>
+    <canvas id="canvas"></canvas>
+    <div class="label">Symbol Input:</div>
+    <input id="textInput" class="custom" size="32" placeholder="Please enter a comma separated list eg. I0,S4,Z2,L5,Q8,T1,J6"/>
+    <div class="label">Max Block Height:</div>
+    <span id="height"> 0 </span>
+  </div>
+  </body>
+</html>
